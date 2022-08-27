@@ -7,11 +7,11 @@ let blocks = document.querySelectorAll(".block")
 let flippedBlocks = []
 
 // Start the game
-// startBtn.addEventListener("click", () => {
-//     let name = prompt("Enter your name")
-//     player.innerHTML = name || "Unknown"
-//     start.remove()
-// })
+startBtn.addEventListener("click", () => {
+    let name = prompt("Enter your name")
+    player.innerHTML = name || "Unknown"
+    start.remove()
+})
 
 // Shuffle the blocks
 let orders = []
